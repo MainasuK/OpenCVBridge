@@ -1,0 +1,1169 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBBB1238247E9DD7003386B4 /* OpenCVPlaygroundResources.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB1236247E9DD7003386B4 /* OpenCVPlaygroundResources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB123D247E9DE6003386B4 /* Unsplash.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB123C247E9DE6003386B4 /* Unsplash.swift */; };
+		DBBB123F247E9E48003386B4 /* matt-hardy-GGrB_0GT0OE-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBBB123E247E9E48003386B4 /* matt-hardy-GGrB_0GT0OE-unsplash.jpg */; };
+		DBBB1240247E9E62003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; };
+		DBBB1241247E9E62003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB1246247EC3FD003386B4 /* CVBMatSource+OpenCV.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB1244247EC3FD003386B4 /* CVBMatSource+OpenCV.h */; };
+		DBBB124C247EDCD9003386B4 /* CVBMatSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB124A247EDCD9003386B4 /* CVBMatSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB124D247EDCD9003386B4 /* CVBMatSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBBB124B247EDCD9003386B4 /* CVBMatSource.mm */; };
+		DBBB1255247EEA82003386B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB1254247EEA82003386B4 /* main.swift */; };
+		DBBB1259247EEAA2003386B4 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
+		DBBB125A247EEAA2003386B4 /* OpenCVBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB125D247EEAA2003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; };
+		DBBB125E247EEAA2003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB1263247EEEE0003386B4 /* CVBBorderTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB1262247EEE6F003386B4 /* CVBBorderTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB126524802718003386B4 /* 1200px-Checkerboard_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = DBBB126424802718003386B4 /* 1200px-Checkerboard_pattern.png */; };
+		DBBB126724802741003386B4 /* StandardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB126624802741003386B4 /* StandardImage.swift */; };
+		DBBB126F24802ED9003386B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB126E24802ED9003386B4 /* main.swift */; };
+		DBBB127324802EE0003386B4 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
+		DBBB127424802EE0003386B4 /* OpenCVBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB127724802EE0003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; };
+		DBBB127824802EE0003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB127D24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBBB127C24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg */; };
+		DBBB127F248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBBB127E248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg */; };
+		DBF4FBB5247C13BF00972647 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
+		DBF4FBBA247C13BF00972647 /* OpenCVBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FBB9247C13BF00972647 /* OpenCVBridgeTests.swift */; };
+		DBF4FBBC247C13BF00972647 /* OpenCVBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF4FBDC247C1C4E00972647 /* CVBMat.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FBDA247C1C4E00972647 /* CVBMat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF4FBDD247C1C4E00972647 /* CVBMat.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FBDB247C1C4E00972647 /* CVBMat.mm */; };
+		DBF4FBDF247C226A00972647 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBDE247C226A00972647 /* opencv2.framework */; };
+		DBF4FBE0247C226A00972647 /* opencv2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBDE247C226A00972647 /* opencv2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBF4FBEB247C2B9C00972647 /* CVBimgproc.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FBE9247C2B9C00972647 /* CVBimgproc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF4FBEC247C2B9C00972647 /* CVBimgproc.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FBEA247C2B9C00972647 /* CVBimgproc.mm */; };
+		DBF4FBEE247C300700972647 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBED247C300700972647 /* OpenCL.framework */; };
+		DBF4FBF0247C303000972647 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBEF247C303000972647 /* Accelerate.framework */; };
+		DBF4FC65247C3B2700972647 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FC64247C3B2700972647 /* main.swift */; };
+		DBF4FC69247C3B3E00972647 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
+		DBF4FC6A247C3B3E00972647 /* OpenCVBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBF4FC73247C411A00972647 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FC72247C411A00972647 /* CoreGraphics.framework */; };
+		DBF4FC75247C414900972647 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FC74247C414900972647 /* QuartzCore.framework */; };
+		DBF4FC77247C415300972647 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FC76247C415300972647 /* Cocoa.framework */; };
+		DBF4FC7A247C41E100972647 /* CVBhighgui.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FC78247C41E100972647 /* CVBhighgui.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF4FC7B247C41E100972647 /* CVBhighgui.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FC79247C41E100972647 /* CVBhighgui.mm */; };
+		DBF4FC7E247C455D00972647 /* NSImage+CVBMat.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FC7C247C455D00972647 /* NSImage+CVBMat.h */; };
+		DBF4FC7F247C455D00972647 /* NSImage+CVBMat.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FC7D247C455D00972647 /* NSImage+CVBMat.mm */; };
+		DBF4FC81247CA74000972647 /* CVBColorConversionCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FC80247CA70B00972647 /* CVBColorConversionCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBBB1242247E9E62003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBB1233247E9DD7003386B4;
+			remoteInfo = OpenCVPlaygroundResources;
+		};
+		DBBB125B247EEAA2003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4FBAA247C13BF00972647;
+			remoteInfo = OpenCVBridge;
+		};
+		DBBB125F247EEAA2003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBB1233247E9DD7003386B4;
+			remoteInfo = OpenCVPlaygroundResources;
+		};
+		DBBB127524802EE0003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4FBAA247C13BF00972647;
+			remoteInfo = OpenCVBridge;
+		};
+		DBBB127924802EE0003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBB1233247E9DD7003386B4;
+			remoteInfo = OpenCVPlaygroundResources;
+		};
+		DBF4FBB6247C13BF00972647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4FBAA247C13BF00972647;
+			remoteInfo = OpenCVBridge;
+		};
+		DBF4FC6B247C3B3E00972647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4FBAA247C13BF00972647;
+			remoteInfo = OpenCVBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBBB122B247E9C98003386B4 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB1250247EEA82003386B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DBBB1261247EEAA2003386B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBBB125E247EEAA2003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */,
+				DBBB125A247EEAA2003386B4 /* OpenCVBridge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB126A24802ED9003386B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DBBB127B24802EE0003386B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBBB127824802EE0003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */,
+				DBBB127424802EE0003386B4 /* OpenCVBridge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FBCA247C158D00972647 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBF4FBE0247C226A00972647 /* opencv2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FC60247C3B2700972647 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DBF4FC6D247C3B3E00972647 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBBB1241247E9E62003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */,
+				DBF4FC6A247C3B3E00972647 /* OpenCVBridge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCVPlaygroundResources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBB1236247E9DD7003386B4 /* OpenCVPlaygroundResources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVPlaygroundResources.h; sourceTree = "<group>"; };
+		DBBB1237247E9DD7003386B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBB123C247E9DE6003386B4 /* Unsplash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unsplash.swift; sourceTree = "<group>"; };
+		DBBB123E247E9E48003386B4 /* matt-hardy-GGrB_0GT0OE-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "matt-hardy-GGrB_0GT0OE-unsplash.jpg"; sourceTree = "<group>"; };
+		DBBB1244247EC3FD003386B4 /* CVBMatSource+OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CVBMatSource+OpenCV.h"; sourceTree = "<group>"; };
+		DBBB124A247EDCD9003386B4 /* CVBMatSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBMatSource.h; sourceTree = "<group>"; };
+		DBBB124B247EDCD9003386B4 /* CVBMatSource.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBMatSource.mm; sourceTree = "<group>"; };
+		DBBB1252247EEA82003386B4 /* Harris Corner Detection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Harris Corner Detection"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBB1254247EEA82003386B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DBBB1262247EEE6F003386B4 /* CVBBorderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBBorderTypes.h; sourceTree = "<group>"; };
+		DBBB126424802718003386B4 /* 1200px-Checkerboard_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Checkerboard_pattern.png"; sourceTree = "<group>"; };
+		DBBB126624802741003386B4 /* StandardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardImage.swift; sourceTree = "<group>"; };
+		DBBB126C24802ED9003386B4 /* Shi-Tomasi Corner Detector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Shi-Tomasi Corner Detector"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBB126E24802ED9003386B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DBBB127C24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jusdevoyage-JHwKPOMPhwE-unsplash.jpg"; sourceTree = "<group>"; };
+		DBBB127E248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mat-reding-j-SWZ_zBqWI-unsplash.jpg"; sourceTree = "<group>"; };
+		DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCVBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVBridge.h; sourceTree = "<group>"; };
+		DBF4FBAF247C13BF00972647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF4FBB4247C13BF00972647 /* OpenCVBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF4FBB9247C13BF00972647 /* OpenCVBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCVBridgeTests.swift; sourceTree = "<group>"; };
+		DBF4FBBB247C13BF00972647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBF4FBDA247C1C4E00972647 /* CVBMat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBMat.h; sourceTree = "<group>"; };
+		DBF4FBDB247C1C4E00972647 /* CVBMat.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBMat.mm; sourceTree = "<group>"; };
+		DBF4FBDE247C226A00972647 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = Frameworks/opencv2.framework; sourceTree = "<group>"; };
+		DBF4FBE9247C2B9C00972647 /* CVBimgproc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBimgproc.h; sourceTree = "<group>"; };
+		DBF4FBEA247C2B9C00972647 /* CVBimgproc.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBimgproc.mm; sourceTree = "<group>"; };
+		DBF4FBED247C300700972647 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		DBF4FBEF247C303000972647 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DBF4FC62247C3B2700972647 /* OpenCVPlayground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCVPlayground; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF4FC64247C3B2700972647 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DBF4FC72247C411A00972647 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DBF4FC74247C414900972647 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DBF4FC76247C415300972647 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DBF4FC78247C41E100972647 /* CVBhighgui.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBhighgui.h; sourceTree = "<group>"; };
+		DBF4FC79247C41E100972647 /* CVBhighgui.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBhighgui.mm; sourceTree = "<group>"; };
+		DBF4FC7C247C455D00972647 /* NSImage+CVBMat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+CVBMat.h"; sourceTree = "<group>"; };
+		DBF4FC7D247C455D00972647 /* NSImage+CVBMat.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSImage+CVBMat.mm"; sourceTree = "<group>"; };
+		DBF4FC80247CA70B00972647 /* CVBColorConversionCodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBColorConversionCodes.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBBB1231247E9DD7003386B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB124F247EEA82003386B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB125D247EEAA2003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
+				DBBB1259247EEAA2003386B4 /* OpenCVBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB126924802ED9003386B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB127724802EE0003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
+				DBBB127324802EE0003386B4 /* OpenCVBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FBA8247C13BF00972647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF4FC75247C414900972647 /* QuartzCore.framework in Frameworks */,
+				DBF4FC73247C411A00972647 /* CoreGraphics.framework in Frameworks */,
+				DBF4FC77247C415300972647 /* Cocoa.framework in Frameworks */,
+				DBF4FBF0247C303000972647 /* Accelerate.framework in Frameworks */,
+				DBF4FBDF247C226A00972647 /* opencv2.framework in Frameworks */,
+				DBF4FBEE247C300700972647 /* OpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FBB1247C13BF00972647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF4FBB5247C13BF00972647 /* OpenCVBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FC5F247C3B2700972647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB1240247E9E62003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
+				DBF4FC69247C3B3E00972647 /* OpenCVBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBBB1235247E9DD7003386B4 /* OpenCVPlaygroundResources */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB126424802718003386B4 /* 1200px-Checkerboard_pattern.png */,
+				DBBB123E247E9E48003386B4 /* matt-hardy-GGrB_0GT0OE-unsplash.jpg */,
+				DBBB127C24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg */,
+				DBBB127E248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg */,
+				DBBB1236247E9DD7003386B4 /* OpenCVPlaygroundResources.h */,
+				DBBB1237247E9DD7003386B4 /* Info.plist */,
+				DBBB123C247E9DE6003386B4 /* Unsplash.swift */,
+				DBBB126624802741003386B4 /* StandardImage.swift */,
+			);
+			path = OpenCVPlaygroundResources;
+			sourceTree = "<group>";
+		};
+		DBBB1253247EEA82003386B4 /* Harris Corner Detection */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB1254247EEA82003386B4 /* main.swift */,
+			);
+			path = "Harris Corner Detection";
+			sourceTree = "<group>";
+		};
+		DBBB126D24802ED9003386B4 /* Shi-Tomasi Corner Detector */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB126E24802ED9003386B4 /* main.swift */,
+			);
+			path = "Shi-Tomasi Corner Detector";
+			sourceTree = "<group>";
+		};
+		DBF4FBA1247C13BF00972647 = {
+			isa = PBXGroup;
+			children = (
+				DBF4FBAD247C13BF00972647 /* OpenCVBridge */,
+				DBF4FBB8247C13BF00972647 /* OpenCVBridgeTests */,
+				DBF4FC63247C3B2700972647 /* OpenCVPlayground */,
+				DBBB1235247E9DD7003386B4 /* OpenCVPlaygroundResources */,
+				DBBB1253247EEA82003386B4 /* Harris Corner Detection */,
+				DBBB126D24802ED9003386B4 /* Shi-Tomasi Corner Detector */,
+				DBF4FBAC247C13BF00972647 /* Products */,
+				DBF4FBD6247C194D00972647 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBF4FBAC247C13BF00972647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */,
+				DBF4FBB4247C13BF00972647 /* OpenCVBridgeTests.xctest */,
+				DBF4FC62247C3B2700972647 /* OpenCVPlayground */,
+				DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */,
+				DBBB1252247EEA82003386B4 /* Harris Corner Detection */,
+				DBBB126C24802ED9003386B4 /* Shi-Tomasi Corner Detector */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBF4FBAD247C13BF00972647 /* OpenCVBridge */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4FBAF247C13BF00972647 /* Info.plist */,
+				DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */,
+				DBF4FC87247D444800972647 /* Core */,
+				DBF4FC8B247D44CE00972647 /* Interfaces */,
+				DBF4FC89247D446600972647 /* Catalogs */,
+				DBF4FC8C247D44FD00972647 /* Enums */,
+			);
+			path = OpenCVBridge;
+			sourceTree = "<group>";
+		};
+		DBF4FBB8247C13BF00972647 /* OpenCVBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4FBB9247C13BF00972647 /* OpenCVBridgeTests.swift */,
+				DBF4FBBB247C13BF00972647 /* Info.plist */,
+			);
+			path = OpenCVBridgeTests;
+			sourceTree = "<group>";
+		};
+		DBF4FBD6247C194D00972647 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4FC76247C415300972647 /* Cocoa.framework */,
+				DBF4FC74247C414900972647 /* QuartzCore.framework */,
+				DBF4FC72247C411A00972647 /* CoreGraphics.framework */,
+				DBF4FBEF247C303000972647 /* Accelerate.framework */,
+				DBF4FBED247C300700972647 /* OpenCL.framework */,
+				DBF4FBDE247C226A00972647 /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF4FC63247C3B2700972647 /* OpenCVPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4FC64247C3B2700972647 /* main.swift */,
+			);
+			path = OpenCVPlayground;
+			sourceTree = "<group>";
+		};
+		DBF4FC87247D444800972647 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4FBDA247C1C4E00972647 /* CVBMat.h */,
+				DBF4FBDB247C1C4E00972647 /* CVBMat.mm */,
+				DBBB124A247EDCD9003386B4 /* CVBMatSource.h */,
+				DBBB124B247EDCD9003386B4 /* CVBMatSource.mm */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DBF4FC89247D446600972647 /* Catalogs */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB1244247EC3FD003386B4 /* CVBMatSource+OpenCV.h */,
+				DBF4FC7C247C455D00972647 /* NSImage+CVBMat.h */,
+				DBF4FC7D247C455D00972647 /* NSImage+CVBMat.mm */,
+			);
+			name = Catalogs;
+			sourceTree = "<group>";
+		};
+		DBF4FC8B247D44CE00972647 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4FBE9247C2B9C00972647 /* CVBimgproc.h */,
+				DBF4FBEA247C2B9C00972647 /* CVBimgproc.mm */,
+				DBF4FC78247C41E100972647 /* CVBhighgui.h */,
+				DBF4FC79247C41E100972647 /* CVBhighgui.mm */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		DBF4FC8C247D44FD00972647 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				DBF4FC80247CA70B00972647 /* CVBColorConversionCodes.h */,
+				DBBB1262247EEE6F003386B4 /* CVBBorderTypes.h */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DBBB122F247E9DD7003386B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB1238247E9DD7003386B4 /* OpenCVPlaygroundResources.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FBA6247C13BF00972647 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF4FC7E247C455D00972647 /* NSImage+CVBMat.h in Headers */,
+				DBF4FBDC247C1C4E00972647 /* CVBMat.h in Headers */,
+				DBBB1263247EEEE0003386B4 /* CVBBorderTypes.h in Headers */,
+				DBBB124C247EDCD9003386B4 /* CVBMatSource.h in Headers */,
+				DBBB1246247EC3FD003386B4 /* CVBMatSource+OpenCV.h in Headers */,
+				DBF4FBBC247C13BF00972647 /* OpenCVBridge.h in Headers */,
+				DBF4FC81247CA74000972647 /* CVBColorConversionCodes.h in Headers */,
+				DBF4FC7A247C41E100972647 /* CVBhighgui.h in Headers */,
+				DBF4FBEB247C2B9C00972647 /* CVBimgproc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBB1239247E9DD7003386B4 /* Build configuration list for PBXNativeTarget "OpenCVPlaygroundResources" */;
+			buildPhases = (
+				DBBB122F247E9DD7003386B4 /* Headers */,
+				DBBB1230247E9DD7003386B4 /* Sources */,
+				DBBB1231247E9DD7003386B4 /* Frameworks */,
+				DBBB1232247E9DD7003386B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCVPlaygroundResources;
+			productName = OpenCVPlaygroundResources;
+			productReference = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBBB1251247EEA82003386B4 /* Harris Corner Detection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBB1256247EEA82003386B4 /* Build configuration list for PBXNativeTarget "Harris Corner Detection" */;
+			buildPhases = (
+				DBBB124E247EEA82003386B4 /* Sources */,
+				DBBB124F247EEA82003386B4 /* Frameworks */,
+				DBBB1250247EEA82003386B4 /* CopyFiles */,
+				DBBB1261247EEAA2003386B4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBB125C247EEAA2003386B4 /* PBXTargetDependency */,
+				DBBB1260247EEAA2003386B4 /* PBXTargetDependency */,
+			);
+			name = "Harris Corner Detection";
+			productName = "Harris Corner Detection";
+			productReference = DBBB1252247EEA82003386B4 /* Harris Corner Detection */;
+			productType = "com.apple.product-type.tool";
+		};
+		DBBB126B24802ED9003386B4 /* Shi-Tomasi Corner Detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBB127024802ED9003386B4 /* Build configuration list for PBXNativeTarget "Shi-Tomasi Corner Detector" */;
+			buildPhases = (
+				DBBB126824802ED9003386B4 /* Sources */,
+				DBBB126924802ED9003386B4 /* Frameworks */,
+				DBBB126A24802ED9003386B4 /* CopyFiles */,
+				DBBB127B24802EE0003386B4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBB127624802EE0003386B4 /* PBXTargetDependency */,
+				DBBB127A24802EE0003386B4 /* PBXTargetDependency */,
+			);
+			name = "Shi-Tomasi Corner Detector";
+			productName = "Shi-Tomasi Corner Detector";
+			productReference = DBBB126C24802ED9003386B4 /* Shi-Tomasi Corner Detector */;
+			productType = "com.apple.product-type.tool";
+		};
+		DBF4FBAA247C13BF00972647 /* OpenCVBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF4FBBF247C13BF00972647 /* Build configuration list for PBXNativeTarget "OpenCVBridge" */;
+			buildPhases = (
+				DBF4FBA6247C13BF00972647 /* Headers */,
+				DBF4FBA7247C13BF00972647 /* Sources */,
+				DBF4FBA8247C13BF00972647 /* Frameworks */,
+				DBF4FBA9247C13BF00972647 /* Resources */,
+				DBF4FBCA247C158D00972647 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCVBridge;
+			productName = OpenCVBridge;
+			productReference = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBF4FBB3247C13BF00972647 /* OpenCVBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF4FBC2247C13BF00972647 /* Build configuration list for PBXNativeTarget "OpenCVBridgeTests" */;
+			buildPhases = (
+				DBF4FBB0247C13BF00972647 /* Sources */,
+				DBF4FBB1247C13BF00972647 /* Frameworks */,
+				DBF4FBB2247C13BF00972647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF4FBB7247C13BF00972647 /* PBXTargetDependency */,
+			);
+			name = OpenCVBridgeTests;
+			productName = OpenCVBridgeTests;
+			productReference = DBF4FBB4247C13BF00972647 /* OpenCVBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBF4FC61247C3B2700972647 /* OpenCVPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBF4FC66247C3B2700972647 /* Build configuration list for PBXNativeTarget "OpenCVPlayground" */;
+			buildPhases = (
+				DBF4FC5E247C3B2700972647 /* Sources */,
+				DBF4FC5F247C3B2700972647 /* Frameworks */,
+				DBF4FC60247C3B2700972647 /* CopyFiles */,
+				DBF4FC6D247C3B3E00972647 /* Embed Frameworks */,
+				DBBB122B247E9C98003386B4 /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBF4FC6C247C3B3E00972647 /* PBXTargetDependency */,
+				DBBB1243247E9E62003386B4 /* PBXTargetDependency */,
+			);
+			name = OpenCVPlayground;
+			productName = OpenCVPlayground;
+			productReference = DBF4FC62247C3B2700972647 /* OpenCVPlayground */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBF4FBA2247C13BF00972647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CVB;
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = MainasuK;
+				TargetAttributes = {
+					DBBB1233247E9DD7003386B4 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					DBBB1251247EEA82003386B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DBBB126B24802ED9003386B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DBF4FBAA247C13BF00972647 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+					DBF4FBB3247C13BF00972647 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DBF4FC61247C3B2700972647 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = DBF4FBA5247C13BF00972647 /* Build configuration list for PBXProject "OpenCVBridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBF4FBA1247C13BF00972647;
+			productRefGroup = DBF4FBAC247C13BF00972647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBF4FBAA247C13BF00972647 /* OpenCVBridge */,
+				DBF4FBB3247C13BF00972647 /* OpenCVBridgeTests */,
+				DBF4FC61247C3B2700972647 /* OpenCVPlayground */,
+				DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */,
+				DBBB1251247EEA82003386B4 /* Harris Corner Detection */,
+				DBBB126B24802ED9003386B4 /* Shi-Tomasi Corner Detector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBBB1232247E9DD7003386B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB126524802718003386B4 /* 1200px-Checkerboard_pattern.png in Resources */,
+				DBBB127F248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg in Resources */,
+				DBBB123F247E9E48003386B4 /* matt-hardy-GGrB_0GT0OE-unsplash.jpg in Resources */,
+				DBBB127D24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FBA9247C13BF00972647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FBB2247C13BF00972647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBBB1230247E9DD7003386B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB126724802741003386B4 /* StandardImage.swift in Sources */,
+				DBBB123D247E9DE6003386B4 /* Unsplash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB124E247EEA82003386B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB1255247EEA82003386B4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB126824802ED9003386B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB126F24802ED9003386B4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FBA7247C13BF00972647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB124D247EDCD9003386B4 /* CVBMatSource.mm in Sources */,
+				DBF4FBDD247C1C4E00972647 /* CVBMat.mm in Sources */,
+				DBF4FBEC247C2B9C00972647 /* CVBimgproc.mm in Sources */,
+				DBF4FC7B247C41E100972647 /* CVBhighgui.mm in Sources */,
+				DBF4FC7F247C455D00972647 /* NSImage+CVBMat.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FBB0247C13BF00972647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF4FBBA247C13BF00972647 /* OpenCVBridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF4FC5E247C3B2700972647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF4FC65247C3B2700972647 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBBB1243247E9E62003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
+			targetProxy = DBBB1242247E9E62003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB125C247EEAA2003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4FBAA247C13BF00972647 /* OpenCVBridge */;
+			targetProxy = DBBB125B247EEAA2003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB1260247EEAA2003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
+			targetProxy = DBBB125F247EEAA2003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB127624802EE0003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4FBAA247C13BF00972647 /* OpenCVBridge */;
+			targetProxy = DBBB127524802EE0003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB127A24802EE0003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
+			targetProxy = DBBB127924802EE0003386B4 /* PBXContainerItemProxy */;
+		};
+		DBF4FBB7247C13BF00972647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4FBAA247C13BF00972647 /* OpenCVBridge */;
+			targetProxy = DBF4FBB6247C13BF00972647 /* PBXContainerItemProxy */;
+		};
+		DBF4FC6C247C3B3E00972647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4FBAA247C13BF00972647 /* OpenCVBridge */;
+			targetProxy = DBF4FC6B247C3B3E00972647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBBB123A247E9DD7003386B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OpenCVPlaygroundResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainasuk.OpenCVPlaygroundResources;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBBB123B247E9DD7003386B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OpenCVPlaygroundResources/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainasuk.OpenCVPlaygroundResources;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBBB1257247EEA82003386B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBBB1258247EEA82003386B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBBB127124802ED9003386B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBBB127224802ED9003386B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBF4FBBD247C13BF00972647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBF4FBBE247C13BF00972647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBF4FBC0247C13BF00972647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = OpenCVBridge/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainasuk.OpenCVBridge;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBF4FBC1247C13BF00972647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = OpenCVBridge/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainasuk.OpenCVBridge;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBF4FBC3247C13BF00972647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				INFOPLIST_FILE = OpenCVBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainasuk.OpenCVBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBF4FBC4247C13BF00972647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				INFOPLIST_FILE = OpenCVBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mainasuk.OpenCVBridgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBF4FC67247C3B2700972647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBF4FC68247C3B2700972647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBBB1239247E9DD7003386B4 /* Build configuration list for PBXNativeTarget "OpenCVPlaygroundResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBB123A247E9DD7003386B4 /* Debug */,
+				DBBB123B247E9DD7003386B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBB1256247EEA82003386B4 /* Build configuration list for PBXNativeTarget "Harris Corner Detection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBB1257247EEA82003386B4 /* Debug */,
+				DBBB1258247EEA82003386B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBB127024802ED9003386B4 /* Build configuration list for PBXNativeTarget "Shi-Tomasi Corner Detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBB127124802ED9003386B4 /* Debug */,
+				DBBB127224802ED9003386B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF4FBA5247C13BF00972647 /* Build configuration list for PBXProject "OpenCVBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF4FBBD247C13BF00972647 /* Debug */,
+				DBF4FBBE247C13BF00972647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF4FBBF247C13BF00972647 /* Build configuration list for PBXNativeTarget "OpenCVBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF4FBC0247C13BF00972647 /* Debug */,
+				DBF4FBC1247C13BF00972647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF4FBC2247C13BF00972647 /* Build configuration list for PBXNativeTarget "OpenCVBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF4FBC3247C13BF00972647 /* Debug */,
+				DBF4FBC4247C13BF00972647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBF4FC66247C3B2700972647 /* Build configuration list for PBXNativeTarget "OpenCVPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBF4FC67247C3B2700972647 /* Debug */,
+				DBF4FC68247C3B2700972647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBF4FBA2247C13BF00972647 /* Project object */;
+}
