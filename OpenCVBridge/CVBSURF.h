@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithHessianThreshold:(double)hessianThreshold;
 - (NSArray<CVBKeyPoint *> *)detect:(CVBMat *)img;
+- (NSArray<CVBKeyPoint *> *)detectAndCompute:(CVBMat *)img mask:(CVBMat * _Nullable)mask descriptors:(CVBMat *)descriptors;
+
 @end
 
 NS_ASSUME_NONNULL_END
