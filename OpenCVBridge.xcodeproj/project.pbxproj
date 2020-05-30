@@ -30,6 +30,14 @@
 		DBBB127824802EE0003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBBB127D24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBBB127C24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg */; };
 		DBBB127F248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBBB127E248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg */; };
+		DBBB128724821415003386B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB128624821415003386B4 /* main.swift */; };
+		DBBB128B2482141B003386B4 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
+		DBBB128C2482141B003386B4 /* OpenCVBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB12902482141F003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; };
+		DBBB12912482141F003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB1295248244DD003386B4 /* CVBTermCriteria.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB129424824431003386B4 /* CVBTermCriteria.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB129724824A97003386B4 /* CVBTermCriteria.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBBB129624824A97003386B4 /* CVBTermCriteria.mm */; };
+		DBBB129924824C76003386B4 /* CVBTermCriteriaType.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB129824824C76003386B4 /* CVBTermCriteriaType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBF4FBB5247C13BF00972647 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
 		DBF4FBBA247C13BF00972647 /* OpenCVBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FBB9247C13BF00972647 /* OpenCVBridgeTests.swift */; };
 		DBF4FBBC247C13BF00972647 /* OpenCVBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -84,6 +92,20 @@
 			remoteInfo = OpenCVBridge;
 		};
 		DBBB127924802EE0003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBB1233247E9DD7003386B4;
+			remoteInfo = OpenCVPlaygroundResources;
+		};
+		DBBB128D2482141B003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4FBAA247C13BF00972647;
+			remoteInfo = OpenCVBridge;
+		};
+		DBBB12922482141F003386B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
 			proxyType = 1;
@@ -159,6 +181,27 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBBB128224821415003386B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DBBB128F2482141B003386B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBBB12912482141F003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */,
+				DBBB128C2482141B003386B4 /* OpenCVBridge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBF4FBCA247C158D00972647 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +254,11 @@
 		DBBB126E24802ED9003386B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DBBB127C24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jusdevoyage-JHwKPOMPhwE-unsplash.jpg"; sourceTree = "<group>"; };
 		DBBB127E248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mat-reding-j-SWZ_zBqWI-unsplash.jpg"; sourceTree = "<group>"; };
+		DBBB128424821415003386B4 /* Detecting Corners Location in Subpixels */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Detecting Corners Location in Subpixels"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBB128624821415003386B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DBBB129424824431003386B4 /* CVBTermCriteria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBTermCriteria.h; sourceTree = "<group>"; };
+		DBBB129624824A97003386B4 /* CVBTermCriteria.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBTermCriteria.mm; sourceTree = "<group>"; };
+		DBBB129824824C76003386B4 /* CVBTermCriteriaType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBTermCriteriaType.h; sourceTree = "<group>"; };
 		DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCVBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVBridge.h; sourceTree = "<group>"; };
 		DBF4FBAF247C13BF00972647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -259,6 +307,15 @@
 			files = (
 				DBBB127724802EE0003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
 				DBBB127324802EE0003386B4 /* OpenCVBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB128124821415003386B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB12902482141F003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
+				DBBB128B2482141B003386B4 /* OpenCVBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +383,14 @@
 			path = "Shi-Tomasi Corner Detector";
 			sourceTree = "<group>";
 		};
+		DBBB128524821415003386B4 /* Detecting Corners Location in Subpixels */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB128624821415003386B4 /* main.swift */,
+			);
+			path = "Detecting Corners Location in Subpixels";
+			sourceTree = "<group>";
+		};
 		DBF4FBA1247C13BF00972647 = {
 			isa = PBXGroup;
 			children = (
@@ -335,6 +400,7 @@
 				DBBB1235247E9DD7003386B4 /* OpenCVPlaygroundResources */,
 				DBBB1253247EEA82003386B4 /* Harris Corner Detection */,
 				DBBB126D24802ED9003386B4 /* Shi-Tomasi Corner Detector */,
+				DBBB128524821415003386B4 /* Detecting Corners Location in Subpixels */,
 				DBF4FBAC247C13BF00972647 /* Products */,
 				DBF4FBD6247C194D00972647 /* Frameworks */,
 			);
@@ -349,6 +415,7 @@
 				DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */,
 				DBBB1252247EEA82003386B4 /* Harris Corner Detection */,
 				DBBB126C24802ED9003386B4 /* Shi-Tomasi Corner Detector */,
+				DBBB128424821415003386B4 /* Detecting Corners Location in Subpixels */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -362,6 +429,8 @@
 				DBF4FC8B247D44CE00972647 /* Interfaces */,
 				DBF4FC89247D446600972647 /* Catalogs */,
 				DBF4FC8C247D44FD00972647 /* Enums */,
+				DBBB129424824431003386B4 /* CVBTermCriteria.h */,
+				DBBB129624824A97003386B4 /* CVBTermCriteria.mm */,
 			);
 			path = OpenCVBridge;
 			sourceTree = "<group>";
@@ -433,6 +502,7 @@
 			children = (
 				DBF4FC80247CA70B00972647 /* CVBColorConversionCodes.h */,
 				DBBB1262247EEE6F003386B4 /* CVBBorderTypes.h */,
+				DBBB129824824C76003386B4 /* CVBTermCriteriaType.h */,
 			);
 			name = Enums;
 			sourceTree = "<group>";
@@ -454,9 +524,11 @@
 			files = (
 				DBF4FC7E247C455D00972647 /* NSImage+CVBMat.h in Headers */,
 				DBF4FBDC247C1C4E00972647 /* CVBMat.h in Headers */,
+				DBBB129924824C76003386B4 /* CVBTermCriteriaType.h in Headers */,
 				DBBB1263247EEEE0003386B4 /* CVBBorderTypes.h in Headers */,
 				DBBB124C247EDCD9003386B4 /* CVBMatSource.h in Headers */,
 				DBBB1246247EC3FD003386B4 /* CVBMatSource+OpenCV.h in Headers */,
+				DBBB1295248244DD003386B4 /* CVBTermCriteria.h in Headers */,
 				DBF4FBBC247C13BF00972647 /* OpenCVBridge.h in Headers */,
 				DBF4FC81247CA74000972647 /* CVBColorConversionCodes.h in Headers */,
 				DBF4FC7A247C41E100972647 /* CVBhighgui.h in Headers */,
@@ -523,6 +595,26 @@
 			name = "Shi-Tomasi Corner Detector";
 			productName = "Shi-Tomasi Corner Detector";
 			productReference = DBBB126C24802ED9003386B4 /* Shi-Tomasi Corner Detector */;
+			productType = "com.apple.product-type.tool";
+		};
+		DBBB128324821415003386B4 /* Detecting Corners Location in Subpixels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBB128824821415003386B4 /* Build configuration list for PBXNativeTarget "Detecting Corners Location in Subpixels" */;
+			buildPhases = (
+				DBBB128024821415003386B4 /* Sources */,
+				DBBB128124821415003386B4 /* Frameworks */,
+				DBBB128224821415003386B4 /* CopyFiles */,
+				DBBB128F2482141B003386B4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBB128E2482141B003386B4 /* PBXTargetDependency */,
+				DBBB12932482141F003386B4 /* PBXTargetDependency */,
+			);
+			name = "Detecting Corners Location in Subpixels";
+			productName = "Detecting Corners Location in Subpixels";
+			productReference = DBBB128424821415003386B4 /* Detecting Corners Location in Subpixels */;
 			productType = "com.apple.product-type.tool";
 		};
 		DBF4FBAA247C13BF00972647 /* OpenCVBridge */ = {
@@ -604,6 +696,9 @@
 					DBBB126B24802ED9003386B4 = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					DBBB128324821415003386B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					DBF4FBAA247C13BF00972647 = {
 						CreatedOnToolsVersion = 11.5;
 						LastSwiftMigration = 1150;
@@ -635,6 +730,7 @@
 				DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */,
 				DBBB1251247EEA82003386B4 /* Harris Corner Detection */,
 				DBBB126B24802ED9003386B4 /* Shi-Tomasi Corner Detector */,
+				DBBB128324821415003386B4 /* Detecting Corners Location in Subpixels */,
 			);
 		};
 /* End PBXProject section */
@@ -693,10 +789,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBBB128024821415003386B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB128724821415003386B4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBF4FBA7247C13BF00972647 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBB129724824A97003386B4 /* CVBTermCriteria.mm in Sources */,
 				DBBB124D247EDCD9003386B4 /* CVBMatSource.mm in Sources */,
 				DBF4FBDD247C1C4E00972647 /* CVBMat.mm in Sources */,
 				DBF4FBEC247C2B9C00972647 /* CVBimgproc.mm in Sources */,
@@ -748,6 +853,16 @@
 			isa = PBXTargetDependency;
 			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
 			targetProxy = DBBB127924802EE0003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB128E2482141B003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4FBAA247C13BF00972647 /* OpenCVBridge */;
+			targetProxy = DBBB128D2482141B003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB12932482141F003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
+			targetProxy = DBBB12922482141F003386B4 /* PBXContainerItemProxy */;
 		};
 		DBF4FBB7247C13BF00972647 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -847,6 +962,28 @@
 			name = Debug;
 		};
 		DBBB127224802ED9003386B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBBB128924821415003386B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBBB128A24821415003386B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1123,6 +1260,15 @@
 			buildConfigurations = (
 				DBBB127124802ED9003386B4 /* Debug */,
 				DBBB127224802ED9003386B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBB128824821415003386B4 /* Build configuration list for PBXNativeTarget "Detecting Corners Location in Subpixels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBB128924821415003386B4 /* Debug */,
+				DBBB128A24821415003386B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

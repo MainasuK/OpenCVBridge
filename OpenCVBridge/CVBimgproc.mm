@@ -47,4 +47,31 @@
 
     return points;
 }
+
++ (NSArray<NSValue *> *)cornerSubPix:(CVBMat *)img corners:(NSArray<NSValue *> *)corners winSize:(CGSize)winSize zerZone:(CGSize)zeroZone termCriteria:(CVBTermCriteria *)termCriteria
+{
+    std::vector<cv::Point2f> cvCorners;
+
+    for (size_t i = 0; i < corners.count; i++) {
+        CGPoint point = [corners[i] pointValue];
+        cvCorners.push_back(cv::Point2f(point.x, point.y));
+    }
+    
+    cv::Size cvWinSize = cv::Size(winSize.width, winSize.height);
+    cv::Size cvZerZone = cv::Size(zeroZone.width, zeroZone.height);
+    cv::TermCriteria cvTermCriteria = cv::TermCriteria(termCriteria.type, termCriteria.maxCount, termCriteria.epsilon);
+    
+    cv::cornerSubPix(img.source->mat, cvCorners, cvWinSize, cvZerZone, cvTermCriteria);
+    
+    NSMutableArray *points = [[NSMutableArray alloc] init];
+    for( size_t i = 0; i < cvCorners.size(); i++ ) {
+        cv::Point2f corner = cvCorners[i];
+        CGPoint point = CGPointMake(corner.x, corner.y);
+        NSValue *value = [NSValue value:&point withObjCType:@encode(CGPoint)];
+        
+        [points addObject:value];
+    }
+    
+    return points;
+}
 @end

@@ -18,9 +18,12 @@ FOUNDATION_EXPORT const unsigned char OpenCVBridgeVersionString[];
 
 #import "CVBColorConversionCodes.h"
 #import "CVBBorderTypes.h"
+#import "CVBTermCriteriaType.h"
 
 #import "CVBimgproc.h"
 #import "CVBhighgui.h"
 
 #import "CVBMatSource.h"
 #import "CVBMat.h"
+
+#import "CVBTermCriteria.h"

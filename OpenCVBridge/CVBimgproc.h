@@ -12,6 +12,7 @@
 
 #import "CVBColorConversionCodes.h"
 #import "CVBBorderTypes.h"
+#import "CVBTermCriteria.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -22,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void)cornerHarris:(CVBMat *)src to:(CVBMat *)dst blockSize:(int)blockSize ksize:(int)ksize k:(double)k borderType:(BorderTypes)borderType;
 + (NSArray<NSValue *> *)goodFeaturesToTrack:(CVBMat *)img maxCorners:(int)maxCorners qualityLevel:(double)qualityLevel minDistance:(double)minDistance;
++ (NSArray<NSValue *> *)cornerSubPix:(CVBMat *)img corners:(NSArray<NSValue *> *)corners winSize:(CGSize)winSize zerZone:(CGSize)zeroZone termCriteria:(CVBTermCriteria *)termCriteria;
 @end
 
 NS_ASSUME_NONNULL_END
