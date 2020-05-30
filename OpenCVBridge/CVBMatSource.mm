@@ -27,7 +27,6 @@
     return source;
 }
 
-
 - (instancetype)initWithCVMat:(cv::Mat)aMat
 {
     self = [super init];

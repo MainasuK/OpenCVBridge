@@ -14,4 +14,16 @@ public class StandardImage {
         let url = bundle.url(forResource: "1200px-Checkerboard_pattern", withExtension: "png")!
         return NSImage(contentsOf: url)!
     }()
+    
+    public static var book: NSImage = {
+        let bundle = Bundle(for: StandardImage.self)
+        let url = bundle.url(forResource: "book", withExtension: "jpg")!
+        return NSImage(contentsOf: url)!
+    }()
+    
+    public static var books: NSImage = {
+        let bundle = Bundle(for: StandardImage.self)
+        let url = bundle.url(forResource: "books", withExtension: "jpg")!
+        return NSImage(contentsOf: url)!
+    }()
 }

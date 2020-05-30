@@ -21,9 +21,19 @@ FOUNDATION_EXPORT const unsigned char OpenCVBridgeVersionString[];
 #import "CVBTermCriteriaType.h"
 
 #import "CVBimgproc.h"
+#import "CVBTermCriteria.h"
+
 #import "CVBhighgui.h"
 
+// Core
 #import "CVBMatSource.h"
 #import "CVBMat.h"
+#import "CVBKeyPoint.h"
 
-#import "CVBTermCriteria.h"
+// features2d
+#import "CVBFeatures2D.h"
+
+// xfeature2d
+#import "CVBSURFSource.h"
+#import "CVBSURF.h"
+
