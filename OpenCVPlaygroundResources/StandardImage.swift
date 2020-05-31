@@ -26,4 +26,16 @@ public class StandardImage {
         let url = bundle.url(forResource: "books", withExtension: "jpg")!
         return NSImage(contentsOf: url)!
     }()
+    
+    public static var graf1: NSImage = {
+        let bundle = Bundle(for: StandardImage.self)
+        let url = bundle.url(forResource: "graf1", withExtension: "png")!
+        return NSImage(contentsOf: url)!
+    }()
+    
+    public static var graf3: NSImage = {
+        let bundle = Bundle(for: StandardImage.self)
+        let url = bundle.url(forResource: "graf3", withExtension: "png")!
+        return NSImage(contentsOf: url)!
+    }()
 }

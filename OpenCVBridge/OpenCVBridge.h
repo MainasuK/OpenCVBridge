@@ -37,6 +37,8 @@ FOUNDATION_EXPORT const unsigned char OpenCVBridgeVersionString[];
 #import "CVBFeatures2D.h"
 #import "CVBDescriptorMatcherSource.h"
 #import "CVBDescriptorMatcher.h"
+#import "CVBAKAZESource.h"
+#import "CVBAKAZE.h"
 
 // xfeature2d
 #import "CVBSURFSource.h"

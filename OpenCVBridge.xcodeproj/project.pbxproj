@@ -87,6 +87,13 @@
 		DBBB134924834DBE003386B4 /* OpenCVBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBBB134C24834DBE003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; };
 		DBBB134D24834DBE003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB135324835089003386B4 /* CVBAKAZESource.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB135124835089003386B4 /* CVBAKAZESource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB135424835089003386B4 /* CVBAKAZESource.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBBB135224835089003386B4 /* CVBAKAZESource.mm */; };
+		DBBB135B2483512B003386B4 /* CVBAKAZE.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB13592483512B003386B4 /* CVBAKAZE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB135C2483512B003386B4 /* CVBAKAZE.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBBB135A2483512B003386B4 /* CVBAKAZE.mm */; };
+		DBBB135F24835179003386B4 /* CVBAKAZESource+OpenCV.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB135D24835179003386B4 /* CVBAKAZESource+OpenCV.h */; };
+		DBCD1A302483A4210033830C /* graf3.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCD1A2E2483A4210033830C /* graf3.png */; };
+		DBCD1A312483A4210033830C /* graf1.png in Resources */ = {isa = PBXBuildFile; fileRef = DBCD1A2F2483A4210033830C /* graf1.png */; };
 		DBF4FBB5247C13BF00972647 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
 		DBF4FBBA247C13BF00972647 /* OpenCVBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FBB9247C13BF00972647 /* OpenCVBridgeTests.swift */; };
 		DBF4FBBC247C13BF00972647 /* OpenCVBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -517,6 +524,13 @@
 		DBBB133A2482EA18003386B4 /* CVBCore.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBCore.mm; sourceTree = "<group>"; };
 		DBBB134124834DB7003386B4 /* AKAZE Local Features Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AKAZE Local Features Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBBB134324834DB7003386B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DBBB135124835089003386B4 /* CVBAKAZESource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBAKAZESource.h; sourceTree = "<group>"; };
+		DBBB135224835089003386B4 /* CVBAKAZESource.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBAKAZESource.mm; sourceTree = "<group>"; };
+		DBBB13592483512B003386B4 /* CVBAKAZE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBAKAZE.h; sourceTree = "<group>"; };
+		DBBB135A2483512B003386B4 /* CVBAKAZE.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBAKAZE.mm; sourceTree = "<group>"; };
+		DBBB135D24835179003386B4 /* CVBAKAZESource+OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CVBAKAZESource+OpenCV.h"; sourceTree = "<group>"; };
+		DBCD1A2E2483A4210033830C /* graf3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graf3.png; sourceTree = "<group>"; };
+		DBCD1A2F2483A4210033830C /* graf1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graf1.png; sourceTree = "<group>"; };
 		DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCVBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVBridge.h; sourceTree = "<group>"; };
 		DBF4FBAF247C13BF00972647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -664,6 +678,8 @@
 				DBBB127E248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg */,
 				DBBB12AE248263B2003386B4 /* book.jpg */,
 				DBBB12AF248263B2003386B4 /* books.jpg */,
+				DBCD1A2F2483A4210033830C /* graf1.png */,
+				DBCD1A2E2483A4210033830C /* graf3.png */,
 				DBBB1236247E9DD7003386B4 /* OpenCVPlaygroundResources.h */,
 				DBBB1237247E9DD7003386B4 /* Info.plist */,
 				DBBB123C247E9DE6003386B4 /* Unsplash.swift */,
@@ -711,6 +727,7 @@
 				DBBB12B4248264B1003386B4 /* CVBSURF.mm */,
 				DBBB12B724826628003386B4 /* CVBSURFSource.h */,
 				DBBB12B824826628003386B4 /* CVBSURFSource.mm */,
+				DBBB12BB24826673003386B4 /* CVBSURFSource+OpenCV.h */,
 			);
 			name = xfeature2d;
 			sourceTree = "<group>";
@@ -729,10 +746,17 @@
 			children = (
 				DBBB12C524829DE3003386B4 /* CVBFeatures2D.h */,
 				DBBB12C624829DE3003386B4 /* CVBFeatures2D.mm */,
+				DBBB131C2482DC95003386B4 /* CVBFeatures2D+OpenCV.h */,
 				DBBB12FA2482B1CA003386B4 /* CVBDescriptorMatcher.h */,
 				DBBB12FB2482B1CA003386B4 /* CVBDescriptorMatcher.mm */,
 				DBBB12F62482B1B4003386B4 /* CVBDescriptorMatcherSource.h */,
 				DBBB12F72482B1B4003386B4 /* CVBDescriptorMatcherSource.mm */,
+				DBBB12FE2482B263003386B4 /* CVBDescriptorMatcherSource+OpenCV.h */,
+				DBBB13592483512B003386B4 /* CVBAKAZE.h */,
+				DBBB135A2483512B003386B4 /* CVBAKAZE.mm */,
+				DBBB135124835089003386B4 /* CVBAKAZESource.h */,
+				DBBB135224835089003386B4 /* CVBAKAZESource.mm */,
+				DBBB135D24835179003386B4 /* CVBAKAZESource+OpenCV.h */,
 			);
 			name = features2d;
 			sourceTree = "<group>";
@@ -871,6 +895,7 @@
 				DBF4FBDB247C1C4E00972647 /* CVBMat.mm */,
 				DBBB124A247EDCD9003386B4 /* CVBMatSource.h */,
 				DBBB124B247EDCD9003386B4 /* CVBMatSource.mm */,
+				DBBB1244247EC3FD003386B4 /* CVBMatSource+OpenCV.h */,
 				DBBB12BF24829A62003386B4 /* CVBKeyPoint.h */,
 				DBBB12C024829A62003386B4 /* CVBKeyPoint.m */,
 				DBBB13042482BB36003386B4 /* CVBDMatch.h */,
@@ -884,10 +909,6 @@
 		DBF4FC89247D446600972647 /* Catalogs */ = {
 			isa = PBXGroup;
 			children = (
-				DBBB1244247EC3FD003386B4 /* CVBMatSource+OpenCV.h */,
-				DBBB12BB24826673003386B4 /* CVBSURFSource+OpenCV.h */,
-				DBBB12FE2482B263003386B4 /* CVBDescriptorMatcherSource+OpenCV.h */,
-				DBBB131C2482DC95003386B4 /* CVBFeatures2D+OpenCV.h */,
 				DBF4FC7C247C455D00972647 /* NSImage+CVBMat.h */,
 				DBF4FC7D247C455D00972647 /* NSImage+CVBMat.mm */,
 			);
@@ -932,13 +953,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBF4FC7E247C455D00972647 /* NSImage+CVBMat.h in Headers */,
+				DBBB135324835089003386B4 /* CVBAKAZESource.h in Headers */,
 				DBBB12C124829A62003386B4 /* CVBKeyPoint.h in Headers */,
+				DBBB135B2483512B003386B4 /* CVBAKAZE.h in Headers */,
 				DBF4FBDC247C1C4E00972647 /* CVBMat.h in Headers */,
 				DBBB12B5248264B1003386B4 /* CVBSURF.h in Headers */,
 				DBBB12FC2482B1CA003386B4 /* CVBDescriptorMatcher.h in Headers */,
 				DBBB13062482BB36003386B4 /* CVBDMatch.h in Headers */,
 				DBBB131E2482DC95003386B4 /* CVBFeatures2D+OpenCV.h in Headers */,
 				DBBB12B924826628003386B4 /* CVBSURFSource.h in Headers */,
+				DBBB135F24835179003386B4 /* CVBAKAZESource+OpenCV.h in Headers */,
 				DBBB12C724829DE3003386B4 /* CVBFeatures2D.h in Headers */,
 				DBBB129924824C76003386B4 /* CVBTermCriteriaType.h in Headers */,
 				DBBB1263247EEEE0003386B4 /* CVBBorderTypes.h in Headers */,
@@ -1286,6 +1310,8 @@
 				DBBB12B0248263B3003386B4 /* book.jpg in Resources */,
 				DBBB12B1248263B3003386B4 /* books.jpg in Resources */,
 				DBBB127F248039E5003386B4 /* mat-reding-j-SWZ_zBqWI-unsplash.jpg in Resources */,
+				DBCD1A302483A4210033830C /* graf3.png in Resources */,
+				DBCD1A312483A4210033830C /* graf1.png in Resources */,
 				DBBB123F247E9E48003386B4 /* matt-hardy-GGrB_0GT0OE-unsplash.jpg in Resources */,
 				DBBB127D24803961003386B4 /* jusdevoyage-JHwKPOMPhwE-unsplash.jpg in Resources */,
 			);
@@ -1388,6 +1414,7 @@
 				DBBB129724824A97003386B4 /* CVBTermCriteria.mm in Sources */,
 				DBBB124D247EDCD9003386B4 /* CVBMatSource.mm in Sources */,
 				DBBB12C824829DE3003386B4 /* CVBFeatures2D.mm in Sources */,
+				DBBB135424835089003386B4 /* CVBAKAZESource.mm in Sources */,
 				DBF4FBDD247C1C4E00972647 /* CVBMat.mm in Sources */,
 				DBF4FBEC247C2B9C00972647 /* CVBimgproc.mm in Sources */,
 				DBBB133C2482EA18003386B4 /* CVBCore.mm in Sources */,
@@ -1400,6 +1427,7 @@
 				DBBB12F92482B1B4003386B4 /* CVBDescriptorMatcherSource.mm in Sources */,
 				DBBB13072482BB36003386B4 /* CVBDMatch.m in Sources */,
 				DBBB12FD2482B1CA003386B4 /* CVBDescriptorMatcher.mm in Sources */,
+				DBBB135C2483512B003386B4 /* CVBAKAZE.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

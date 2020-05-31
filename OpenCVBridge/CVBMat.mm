@@ -17,8 +17,13 @@
 
 @implementation CVBMat
 
-
 #pragma mark - Initialization
+
++ (instancetype)ones:(int)rows cols:(int)cols type:(CVBType)type
+{
+    cv::Mat mat = cv::Mat::ones(rows, cols, type);
+    return [[CVBMat alloc] initWithCVMat:mat];
+}
 
 - (instancetype)init
 {
@@ -32,6 +37,7 @@
     return [self initWithCVMat:cvMat];
 }
 
+
 - (int)rows
 {
     return self.source->mat.rows;
@@ -40,6 +46,33 @@
 - (int)cols
 {
     return self.source->mat.cols;
+}
+
+- (CVBMat *)multiply:(CVBMat *)aMat
+{
+    cv::Mat result = self.source->mat * aMat.source->mat;
+    return [[CVBMat alloc] initWithCVMat:result];
+}
+
+- (CVBMat *)divideDouble:(double)value
+{
+    cv::Mat result = self.source->mat / value;
+    return [[CVBMat alloc] initWithCVMat:result];
+}
+
+- (double)getDoubleAtIndex:(int)index
+{
+    return self.source->mat.at<double>(index);
+}
+
+- (void)setDouble:(double)value at:(int)index
+{
+    self.source->mat.at<double>(index) = value;
+}
+
+- (void)setDouble:(double)value atRow:(int)row atCol:(int)col
+{
+    self.source->mat.at<double>(row, col) = value;
 }
 
 - (CGImageRef)imageRef

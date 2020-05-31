@@ -12,7 +12,6 @@
 #import <opencv2/features2d.hpp>
 #pragma clang diagnostic pop
 
-
 #import "CVBDescriptorMatcherSource+OpenCV.h"
 #import "CVBDescriptorMatcherSource.h"
 
