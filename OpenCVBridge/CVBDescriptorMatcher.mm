@@ -16,6 +16,7 @@
 #import "CVBMatSource+OpenCV.h"
 #import "CVBDescriptorMatcher.h"
 #import "CVBDescriptorMatcherSource+OpenCV.h"
+#import "CVBFeatures2D+OpenCV.h"
 
 @implementation CVBDescriptorMatcher
 
@@ -42,6 +43,22 @@
     }
     
     return cvbMatches;
+}
+
+- (NSArray<NSArray<CVBDMatch *> *> *)knnMatch:(CVBMat *)descriptors1 descriptor2:(CVBMat *)descriptor2 k:(int)k
+{
+    std::vector<std::vector<cv::DMatch>> knnMatches;
+    self.source->descriptorMatcher->knnMatch(descriptors1.source->mat,
+                                             descriptor2.source->mat,
+                                             knnMatches,
+                                             k);
+    NSMutableArray *cvbKnnMatches = [[NSMutableArray alloc] init];
+    for ( size_t i = 0; i < knnMatches.size(); i++ ) {
+        NSArray<CVBDMatch *> *cvbMatches = [CVBFeatures2D cvbMatchesFrom:knnMatches[i]];
+        [cvbKnnMatches addObject:cvbMatches];
+    }
+
+    return cvbKnnMatches;
 }
 
 @end

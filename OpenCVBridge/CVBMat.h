@@ -16,6 +16,9 @@ NS_ASSUME_NONNULL_BEGIN
 #pragma mark - Initialization
 
 - (instancetype)initWithNSImage:(NSImage *)anImage;
+- (int)rows;
+- (int)cols;
+
 - (CGImageRef)imageRef;
 
 @end

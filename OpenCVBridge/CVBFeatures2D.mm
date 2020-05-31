@@ -67,4 +67,19 @@
     return matches;
 }
 
++ (NSArray<CVBDMatch *> *)cvbMatchesFrom:(std::vector<cv::DMatch>)matches
+{
+    NSMutableArray *cvbMatches = [[NSMutableArray alloc] init];
+    for ( int i = 0; i < matches.size(); i++) {
+        cv::DMatch match = matches[i];
+        CVBDMatch *cvbMatch = [[CVBDMatch alloc] initWithQueryIdx:match.queryIdx
+                                                         trainIdx:match.trainIdx
+                                                           imgIdx:match.imgIdx
+                                                         distance:match.distance];
+        [cvbMatches addObject:cvbMatch];
+    }
+    
+    return cvbMatches;
+}
+
 @end

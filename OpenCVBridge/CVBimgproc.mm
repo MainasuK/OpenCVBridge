@@ -26,6 +26,11 @@
     cv::circle(img.source->mat, cv::Point(center.x, center.y), radius, cv::Scalar(color.blueComponent * 255, color.greenComponent * 255, color.redComponent * 255, color.alphaComponent * 255), thickness, lineType, shift);
 }
 
++ (void)line:(CVBMat *)img pt1:(CGPoint)pt1 pt2:(CGPoint)pt2 color:(NSColor *)color thickness:(int)thickness
+{
+    cv::line(img.source->mat, cv::Point(pt1.x, pt1.y), cv::Point(pt2.x, pt2.y), cv::Scalar(color.blueComponent * 255, color.greenComponent * 255, color.redComponent * 255, color.alphaComponent * 255), thickness);
+}
+
 + (void)cornerHarris:(CVBMat *)src to:(CVBMat *)dst blockSize:(int)blockSize ksize:(int)ksize k:(double)k borderType:(BorderTypes)borderType
 {
     cv::cornerHarris(src.source->mat, dst.source->mat, blockSize, ksize, k, borderType);

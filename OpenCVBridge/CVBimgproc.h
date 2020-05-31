@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)cvtColor:(CVBMat *)src to:(CVBMat *)dst code:(ColorConversionCodes)code dstCn:(int)dstCn;
 
 + (void)circle:(CVBMat *)img center:(CGPoint)center radius:(int)radius color:(NSColor *)color thickness:(int)thickness lineType:(int)lineType shift:(int)shift;
++ (void)line:(CVBMat *)img pt1:(CGPoint)pt1 pt2:(CGPoint)pt2 color:(NSColor *)color thickness:(int)thickness;
 
 + (void)cornerHarris:(CVBMat *)src to:(CVBMat *)dst blockSize:(int)blockSize ksize:(int)ksize k:(double)k borderType:(BorderTypes)borderType;
 + (NSArray<NSValue *> *)goodFeaturesToTrack:(CVBMat *)img maxCorners:(int)maxCorners qualityLevel:(double)qualityLevel minDistance:(double)minDistance;

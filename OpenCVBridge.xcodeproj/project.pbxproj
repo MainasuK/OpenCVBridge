@@ -67,6 +67,26 @@
 		DBBB13032482B56E003386B4 /* CVBDescriptorMatcherType.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB13022482B56C003386B4 /* CVBDescriptorMatcherType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBBB13062482BB36003386B4 /* CVBDMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB13042482BB36003386B4 /* CVBDMatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBBB13072482BB36003386B4 /* CVBDMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBB13052482BB36003386B4 /* CVBDMatch.m */; };
+		DBBB130F2482CD68003386B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB130E2482CD68003386B4 /* main.swift */; };
+		DBBB13132482CD6D003386B4 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
+		DBBB13142482CD6D003386B4 /* OpenCVBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB13172482CD6D003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; };
+		DBBB13182482CD6D003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB131E2482DC95003386B4 /* CVBFeatures2D+OpenCV.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB131C2482DC95003386B4 /* CVBFeatures2D+OpenCV.h */; };
+		DBBB13272482E45B003386B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB13262482E45B003386B4 /* main.swift */; };
+		DBBB132B2482E461003386B4 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
+		DBBB132C2482E461003386B4 /* OpenCVBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB132F2482E461003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; };
+		DBBB13302482E461003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB13372482E656003386B4 /* CVBCalib3D.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB13352482E656003386B4 /* CVBCalib3D.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB13382482E656003386B4 /* CVBCalib3D.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBBB13362482E656003386B4 /* CVBCalib3D.mm */; };
+		DBBB133B2482EA18003386B4 /* CVBCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBB13392482EA18003386B4 /* CVBCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBB133C2482EA18003386B4 /* CVBCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBBB133A2482EA18003386B4 /* CVBCore.mm */; };
+		DBBB134424834DB7003386B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB134324834DB7003386B4 /* main.swift */; };
+		DBBB134824834DBE003386B4 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
+		DBBB134924834DBE003386B4 /* OpenCVBridge.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBBB134C24834DBE003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; };
+		DBBB134D24834DBE003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBBB1234247E9DD7003386B4 /* OpenCVPlaygroundResources.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBF4FBB5247C13BF00972647 /* OpenCVBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */; };
 		DBF4FBBA247C13BF00972647 /* OpenCVBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF4FBB9247C13BF00972647 /* OpenCVBridgeTests.swift */; };
 		DBF4FBBC247C13BF00972647 /* OpenCVBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -163,6 +183,48 @@
 			remoteInfo = OpenCVBridge;
 		};
 		DBBB12F32482AD34003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBB1233247E9DD7003386B4;
+			remoteInfo = OpenCVPlaygroundResources;
+		};
+		DBBB13152482CD6D003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4FBAA247C13BF00972647;
+			remoteInfo = OpenCVBridge;
+		};
+		DBBB13192482CD6D003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBB1233247E9DD7003386B4;
+			remoteInfo = OpenCVPlaygroundResources;
+		};
+		DBBB132D2482E461003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4FBAA247C13BF00972647;
+			remoteInfo = OpenCVBridge;
+		};
+		DBBB13312482E461003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBBB1233247E9DD7003386B4;
+			remoteInfo = OpenCVPlaygroundResources;
+		};
+		DBBB134A24834DBE003386B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBF4FBAA247C13BF00972647;
+			remoteInfo = OpenCVBridge;
+		};
+		DBBB134E24834DBE003386B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DBF4FBA2247C13BF00972647 /* Project object */;
 			proxyType = 1;
@@ -301,6 +363,69 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBBB130A2482CD68003386B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DBBB131B2482CD6D003386B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBBB13182482CD6D003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */,
+				DBBB13142482CD6D003386B4 /* OpenCVBridge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB13222482E45B003386B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DBBB13332482E461003386B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBBB13302482E461003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */,
+				DBBB132C2482E461003386B4 /* OpenCVBridge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB133F24834DB7003386B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DBBB135024834DBE003386B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBBB134D24834DBE003386B4 /* OpenCVPlaygroundResources.framework in Embed Frameworks */,
+				DBBB134924834DBE003386B4 /* OpenCVBridge.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBF4FBCA247C158D00972647 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +506,17 @@
 		DBBB13022482B56C003386B4 /* CVBDescriptorMatcherType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBDescriptorMatcherType.h; sourceTree = "<group>"; };
 		DBBB13042482BB36003386B4 /* CVBDMatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBDMatch.h; sourceTree = "<group>"; };
 		DBBB13052482BB36003386B4 /* CVBDMatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVBDMatch.m; sourceTree = "<group>"; };
+		DBBB130C2482CD68003386B4 /* Feature Matching with FLANN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Feature Matching with FLANN"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBB130E2482CD68003386B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DBBB131C2482DC95003386B4 /* CVBFeatures2D+OpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CVBFeatures2D+OpenCV.h"; sourceTree = "<group>"; };
+		DBBB13242482E45B003386B4 /* Features2D + Homography to Find a Known Object */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Features2D + Homography to Find a Known Object"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBB13262482E45B003386B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DBBB13352482E656003386B4 /* CVBCalib3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBCalib3D.h; sourceTree = "<group>"; };
+		DBBB13362482E656003386B4 /* CVBCalib3D.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBCalib3D.mm; sourceTree = "<group>"; };
+		DBBB13392482EA18003386B4 /* CVBCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVBCore.h; sourceTree = "<group>"; };
+		DBBB133A2482EA18003386B4 /* CVBCore.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CVBCore.mm; sourceTree = "<group>"; };
+		DBBB134124834DB7003386B4 /* AKAZE Local Features Matching */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AKAZE Local Features Matching"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBBB134324834DB7003386B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DBF4FBAB247C13BF00972647 /* OpenCVBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpenCVBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF4FBAE247C13BF00972647 /* OpenCVBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVBridge.h; sourceTree = "<group>"; };
 		DBF4FBAF247C13BF00972647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -456,6 +592,33 @@
 			files = (
 				DBBB12F12482AD34003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
 				DBBB12ED2482AD34003386B4 /* OpenCVBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB13092482CD68003386B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB13172482CD6D003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
+				DBBB13132482CD6D003386B4 /* OpenCVBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB13212482E45B003386B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB132F2482E461003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
+				DBBB132B2482E461003386B4 /* OpenCVBridge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB133E24834DB7003386B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB134C24834DBE003386B4 /* OpenCVPlaygroundResources.framework in Frameworks */,
+				DBBB134824834DBE003386B4 /* OpenCVBridge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +745,39 @@
 			path = "Feature Description";
 			sourceTree = "<group>";
 		};
+		DBBB130D2482CD68003386B4 /* Feature Matching with FLANN */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB130E2482CD68003386B4 /* main.swift */,
+			);
+			path = "Feature Matching with FLANN";
+			sourceTree = "<group>";
+		};
+		DBBB13252482E45B003386B4 /* Features2D + Homography to Find a Known Object */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB13262482E45B003386B4 /* main.swift */,
+			);
+			path = "Features2D + Homography to Find a Known Object";
+			sourceTree = "<group>";
+		};
+		DBBB13342482E634003386B4 /* calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB13352482E656003386B4 /* CVBCalib3D.h */,
+				DBBB13362482E656003386B4 /* CVBCalib3D.mm */,
+			);
+			name = calib3d;
+			sourceTree = "<group>";
+		};
+		DBBB134224834DB7003386B4 /* AKAZE Local Features Matching */ = {
+			isa = PBXGroup;
+			children = (
+				DBBB134324834DB7003386B4 /* main.swift */,
+			);
+			path = "AKAZE Local Features Matching";
+			sourceTree = "<group>";
+		};
 		DBF4FBA1247C13BF00972647 = {
 			isa = PBXGroup;
 			children = (
@@ -594,6 +790,9 @@
 				DBBB128524821415003386B4 /* Detecting Corners Location in Subpixels */,
 				DBBB129F24826067003386B4 /* Feature Detection */,
 				DBBB12E72482A6D5003386B4 /* Feature Description */,
+				DBBB130D2482CD68003386B4 /* Feature Matching with FLANN */,
+				DBBB13252482E45B003386B4 /* Features2D + Homography to Find a Known Object */,
+				DBBB134224834DB7003386B4 /* AKAZE Local Features Matching */,
 				DBF4FBAC247C13BF00972647 /* Products */,
 				DBF4FBD6247C194D00972647 /* Frameworks */,
 			);
@@ -611,6 +810,9 @@
 				DBBB128424821415003386B4 /* Detecting Corners Location in Subpixels */,
 				DBBB129E24826067003386B4 /* Feature Detection */,
 				DBBB12E62482A6D5003386B4 /* Feature Description */,
+				DBBB130C2482CD68003386B4 /* Feature Matching with FLANN */,
+				DBBB13242482E45B003386B4 /* Features2D + Homography to Find a Known Object */,
+				DBBB134124834DB7003386B4 /* AKAZE Local Features Matching */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -625,6 +827,7 @@
 				DBBB12B224826480003386B4 /* xfeature2d */,
 				DBF4FC8B247D44CE00972647 /* imgproc */,
 				DBBB12C324829A8A003386B4 /* highgui */,
+				DBBB13342482E634003386B4 /* calib3d */,
 				DBF4FC89247D446600972647 /* Catalogs */,
 				DBF4FC8C247D44FD00972647 /* Enums */,
 			);
@@ -672,6 +875,8 @@
 				DBBB12C024829A62003386B4 /* CVBKeyPoint.m */,
 				DBBB13042482BB36003386B4 /* CVBDMatch.h */,
 				DBBB13052482BB36003386B4 /* CVBDMatch.m */,
+				DBBB13392482EA18003386B4 /* CVBCore.h */,
+				DBBB133A2482EA18003386B4 /* CVBCore.mm */,
 			);
 			name = core;
 			sourceTree = "<group>";
@@ -682,6 +887,7 @@
 				DBBB1244247EC3FD003386B4 /* CVBMatSource+OpenCV.h */,
 				DBBB12BB24826673003386B4 /* CVBSURFSource+OpenCV.h */,
 				DBBB12FE2482B263003386B4 /* CVBDescriptorMatcherSource+OpenCV.h */,
+				DBBB131C2482DC95003386B4 /* CVBFeatures2D+OpenCV.h */,
 				DBF4FC7C247C455D00972647 /* NSImage+CVBMat.h */,
 				DBF4FC7D247C455D00972647 /* NSImage+CVBMat.mm */,
 			);
@@ -731,14 +937,17 @@
 				DBBB12B5248264B1003386B4 /* CVBSURF.h in Headers */,
 				DBBB12FC2482B1CA003386B4 /* CVBDescriptorMatcher.h in Headers */,
 				DBBB13062482BB36003386B4 /* CVBDMatch.h in Headers */,
+				DBBB131E2482DC95003386B4 /* CVBFeatures2D+OpenCV.h in Headers */,
 				DBBB12B924826628003386B4 /* CVBSURFSource.h in Headers */,
 				DBBB12C724829DE3003386B4 /* CVBFeatures2D.h in Headers */,
 				DBBB129924824C76003386B4 /* CVBTermCriteriaType.h in Headers */,
 				DBBB1263247EEEE0003386B4 /* CVBBorderTypes.h in Headers */,
+				DBBB133B2482EA18003386B4 /* CVBCore.h in Headers */,
 				DBBB12BD24826673003386B4 /* CVBSURFSource+OpenCV.h in Headers */,
 				DBBB124C247EDCD9003386B4 /* CVBMatSource.h in Headers */,
 				DBBB1246247EC3FD003386B4 /* CVBMatSource+OpenCV.h in Headers */,
 				DBBB1295248244DD003386B4 /* CVBTermCriteria.h in Headers */,
+				DBBB13372482E656003386B4 /* CVBCalib3D.h in Headers */,
 				DBBB12F82482B1B4003386B4 /* CVBDescriptorMatcherSource.h in Headers */,
 				DBF4FBBC247C13BF00972647 /* OpenCVBridge.h in Headers */,
 				DBF4FC81247CA74000972647 /* CVBColorConversionCodes.h in Headers */,
@@ -870,6 +1079,66 @@
 			productReference = DBBB12E62482A6D5003386B4 /* Feature Description */;
 			productType = "com.apple.product-type.tool";
 		};
+		DBBB130B2482CD68003386B4 /* Feature Matching with FLANN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBB13102482CD68003386B4 /* Build configuration list for PBXNativeTarget "Feature Matching with FLANN" */;
+			buildPhases = (
+				DBBB13082482CD68003386B4 /* Sources */,
+				DBBB13092482CD68003386B4 /* Frameworks */,
+				DBBB130A2482CD68003386B4 /* CopyFiles */,
+				DBBB131B2482CD6D003386B4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBB13162482CD6D003386B4 /* PBXTargetDependency */,
+				DBBB131A2482CD6D003386B4 /* PBXTargetDependency */,
+			);
+			name = "Feature Matching with FLANN";
+			productName = "Feature Matching with FLANN";
+			productReference = DBBB130C2482CD68003386B4 /* Feature Matching with FLANN */;
+			productType = "com.apple.product-type.tool";
+		};
+		DBBB13232482E45B003386B4 /* Features2D + Homography to Find a Known Object */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBB13282482E45B003386B4 /* Build configuration list for PBXNativeTarget "Features2D + Homography to Find a Known Object" */;
+			buildPhases = (
+				DBBB13202482E45B003386B4 /* Sources */,
+				DBBB13212482E45B003386B4 /* Frameworks */,
+				DBBB13222482E45B003386B4 /* CopyFiles */,
+				DBBB13332482E461003386B4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBB132E2482E461003386B4 /* PBXTargetDependency */,
+				DBBB13322482E461003386B4 /* PBXTargetDependency */,
+			);
+			name = "Features2D + Homography to Find a Known Object";
+			productName = "Features2D + Homography to Find a Known Object";
+			productReference = DBBB13242482E45B003386B4 /* Features2D + Homography to Find a Known Object */;
+			productType = "com.apple.product-type.tool";
+		};
+		DBBB134024834DB7003386B4 /* AKAZE Local Features Matching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBB134524834DB7003386B4 /* Build configuration list for PBXNativeTarget "AKAZE Local Features Matching" */;
+			buildPhases = (
+				DBBB133D24834DB7003386B4 /* Sources */,
+				DBBB133E24834DB7003386B4 /* Frameworks */,
+				DBBB133F24834DB7003386B4 /* CopyFiles */,
+				DBBB135024834DBE003386B4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBBB134B24834DBE003386B4 /* PBXTargetDependency */,
+				DBBB134F24834DBE003386B4 /* PBXTargetDependency */,
+			);
+			name = "AKAZE Local Features Matching";
+			productName = "AKAZE Local Features Matching";
+			productReference = DBBB134124834DB7003386B4 /* AKAZE Local Features Matching */;
+			productType = "com.apple.product-type.tool";
+		};
 		DBF4FBAA247C13BF00972647 /* OpenCVBridge */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DBF4FBBF247C13BF00972647 /* Build configuration list for PBXNativeTarget "OpenCVBridge" */;
@@ -958,6 +1227,15 @@
 					DBBB12E52482A6D5003386B4 = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					DBBB130B2482CD68003386B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DBBB13232482E45B003386B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DBBB134024834DB7003386B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					DBF4FBAA247C13BF00972647 = {
 						CreatedOnToolsVersion = 11.5;
 						LastSwiftMigration = 1150;
@@ -992,6 +1270,9 @@
 				DBBB128324821415003386B4 /* Detecting Corners Location in Subpixels */,
 				DBBB129D24826067003386B4 /* Feature Detection */,
 				DBBB12E52482A6D5003386B4 /* Feature Description */,
+				DBBB130B2482CD68003386B4 /* Feature Matching with FLANN */,
+				DBBB13232482E45B003386B4 /* Features2D + Homography to Find a Known Object */,
+				DBBB134024834DB7003386B4 /* AKAZE Local Features Matching */,
 			);
 		};
 /* End PBXProject section */
@@ -1076,6 +1357,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBBB13082482CD68003386B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB130F2482CD68003386B4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB13202482E45B003386B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB13272482E45B003386B4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBB133D24834DB7003386B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBB134424834DB7003386B4 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DBF4FBA7247C13BF00972647 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1085,7 +1390,9 @@
 				DBBB12C824829DE3003386B4 /* CVBFeatures2D.mm in Sources */,
 				DBF4FBDD247C1C4E00972647 /* CVBMat.mm in Sources */,
 				DBF4FBEC247C2B9C00972647 /* CVBimgproc.mm in Sources */,
+				DBBB133C2482EA18003386B4 /* CVBCore.mm in Sources */,
 				DBBB12C224829A62003386B4 /* CVBKeyPoint.m in Sources */,
+				DBBB13382482E656003386B4 /* CVBCalib3D.mm in Sources */,
 				DBF4FC7B247C41E100972647 /* CVBhighgui.mm in Sources */,
 				DBF4FC7F247C455D00972647 /* NSImage+CVBMat.mm in Sources */,
 				DBBB12BA24826628003386B4 /* CVBSURFSource.mm in Sources */,
@@ -1169,6 +1476,36 @@
 			isa = PBXTargetDependency;
 			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
 			targetProxy = DBBB12F32482AD34003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB13162482CD6D003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4FBAA247C13BF00972647 /* OpenCVBridge */;
+			targetProxy = DBBB13152482CD6D003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB131A2482CD6D003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
+			targetProxy = DBBB13192482CD6D003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB132E2482E461003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4FBAA247C13BF00972647 /* OpenCVBridge */;
+			targetProxy = DBBB132D2482E461003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB13322482E461003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
+			targetProxy = DBBB13312482E461003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB134B24834DBE003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBF4FBAA247C13BF00972647 /* OpenCVBridge */;
+			targetProxy = DBBB134A24834DBE003386B4 /* PBXContainerItemProxy */;
+		};
+		DBBB134F24834DBE003386B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBBB1233247E9DD7003386B4 /* OpenCVPlaygroundResources */;
+			targetProxy = DBBB134E24834DBE003386B4 /* PBXContainerItemProxy */;
 		};
 		DBF4FBB7247C13BF00972647 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1334,6 +1671,72 @@
 			name = Debug;
 		};
 		DBBB12EC2482A6D5003386B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBBB13112482CD68003386B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBBB13122482CD68003386B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBBB13292482E45B003386B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBBB132A2482E45B003386B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBBB134624834DB7003386B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8K92XFF77;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBBB134724834DB7003386B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -1637,6 +2040,33 @@
 			buildConfigurations = (
 				DBBB12EB2482A6D5003386B4 /* Debug */,
 				DBBB12EC2482A6D5003386B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBB13102482CD68003386B4 /* Build configuration list for PBXNativeTarget "Feature Matching with FLANN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBB13112482CD68003386B4 /* Debug */,
+				DBBB13122482CD68003386B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBB13282482E45B003386B4 /* Build configuration list for PBXNativeTarget "Features2D + Homography to Find a Known Object" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBB13292482E45B003386B4 /* Debug */,
+				DBBB132A2482E45B003386B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBBB134524834DB7003386B4 /* Build configuration list for PBXNativeTarget "AKAZE Local Features Matching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBBB134624834DB7003386B4 /* Debug */,
+				DBBB134724834DB7003386B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

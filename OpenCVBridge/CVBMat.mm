@@ -32,6 +32,16 @@
     return [self initWithCVMat:cvMat];
 }
 
+- (int)rows
+{
+    return self.source->mat.rows;
+}
+
+- (int)cols
+{
+    return self.source->mat.cols;
+}
+
 - (CGImageRef)imageRef
 {
     NSData *data = [NSData dataWithBytes:self.source->mat.data

@@ -13,7 +13,6 @@ import OpenCVPlaygroundResources
 print("Feature Description")
 print("Matching SURF feature point")
 
-
 // let minHessian = 500.0
 let minHessian = 25600.0
 
@@ -33,11 +32,11 @@ CVBimgproc.cvtColor(part, to: part, code: .COLOR_BGR2RGB, dstCn: 0)
 
 let detector = CVBSURF(hessianThreshold: minHessian)
 
-let booksKeypointsDescriptor = CVBMat()
-let booksKeypoints = detector.detectAndCompute(part, mask: nil, descriptors: booksKeypointsDescriptor)
-
 let bookKeypointsDescriptor = CVBMat()
-let bookKeypoints = detector.detectAndCompute(whole, mask: nil, descriptors: bookKeypointsDescriptor)
+let bookKeypoints = detector.detectAndCompute(part, mask: nil, descriptors: bookKeypointsDescriptor)
+
+let booksKeypointsDescriptor = CVBMat()
+let booksKeypoints = detector.detectAndCompute(whole, mask: nil, descriptors: booksKeypointsDescriptor)
 
 // Matching descriptor vectors with a brute force matcher
 // Since SURF is a floating-point descriptor NORM_L2 is used
@@ -46,7 +45,7 @@ let matches = matcher.match(bookKeypointsDescriptor, descriptors2: booksKeypoint
 
 // Draw match line
 let outputImg = CVBMat()
-CVBFeatures2D.drawMatches(whole, keypoints1: bookKeypoints, img2: part, keypoints2: booksKeypoints, matches: matches, outImg: outputImg)
+CVBFeatures2D.drawMatches(part, keypoints1: bookKeypoints, img2: whole, keypoints2: booksKeypoints, matches: matches, outImg: outputImg)
 
 CVBhighgui.imshow("image", mat: outputImg)
 CVBhighgui.waitKey(0)

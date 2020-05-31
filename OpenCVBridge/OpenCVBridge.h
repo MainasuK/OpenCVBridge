@@ -27,6 +27,7 @@ FOUNDATION_EXPORT const unsigned char OpenCVBridgeVersionString[];
 #import "CVBhighgui.h"
 
 // Core
+#import "CVBCore.h"
 #import "CVBMatSource.h"
 #import "CVBMat.h"
 #import "CVBKeyPoint.h"
@@ -41,3 +42,5 @@ FOUNDATION_EXPORT const unsigned char OpenCVBridgeVersionString[];
 #import "CVBSURFSource.h"
 #import "CVBSURF.h"
 
+// calib3d
+#import "CVBCalib3D.h"
