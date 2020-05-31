@@ -21,5 +21,15 @@ fi
 
 if [ ! -d "Frameworks/opencv2.framework" ]; then
 	mkdir -p Frameworks
-	python ${work_dir}/opencv-${opencv_version}/platforms/osx/build_framework.py ${work_dir}/Frameworks --enable_nonfree --contrib ${work_dir}/opencv_contrib-${opencv_contrib_version}
+	python ${work_dir}/opencv-${opencv_version}/platforms/osx/build_framework.py \
+		${work_dir}/Frameworks \
+		--without videoio \
+		--without video \
+		--without ts \
+		--without stitching \
+		--without python \
+		--without js \
+		--without java \
+		--enable_nonfree \
+		--contrib ${work_dir}/opencv_contrib-${opencv_contrib_version} 
 fi

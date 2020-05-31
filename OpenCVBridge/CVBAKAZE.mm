@@ -26,7 +26,7 @@
 - (instancetype)initWithCVAKAZE
 {
     cv::Ptr<cv::AKAZE> akaze = cv::AKAZE::create();
-    return [super initWithCVAKAZE:akaze];
+    return [super initWithCVAKaze:akaze];
 }
 
 - (NSArray<CVBKeyPoint *> *)detectAndCompute:(CVBMat *)img mask:(CVBMat * _Nullable)mask descriptors:(CVBMat *)descriptors
