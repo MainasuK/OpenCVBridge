@@ -6,8 +6,13 @@
 //  Copyright © 2020 MainasuK. All rights reserved.
 //
 
-#import "CVBAKAZESource.h"
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdocumentation"
+#import <opencv2/core.hpp>
+#pragma clang diagnostic pop
+
 #import "CVBAKAZESource+OpenCV.h"
+#import "CVBAKAZESource.h"
 
 @interface CVBAKAZESource () {
     struct AKAZESource *source;
@@ -21,13 +26,13 @@
     return source;
 }
 
-- (instancetype)initWithCVAKAZE:(cv::Ptr<cv::AKAZE>)aAKAZE
+- (instancetype)initWithCVAKaze:(cv::Ptr<cv::AKAZE>)anAkaze
 {
     self = [super init];
     
     if (self) {
         AKAZESource *source = new AKAZESource;
-        source->akaze = aAKAZE;
+        source->akaze = anAkaze;
         self->source = source;
     }
     

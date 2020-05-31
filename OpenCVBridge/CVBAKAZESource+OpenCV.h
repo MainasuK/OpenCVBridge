@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property struct AKAZESource *source;
 
-- (instancetype)initWithCVAKAZE:(cv::Ptr<cv::AKAZE>)aAKAZE;
+- (instancetype)initWithCVAKAZE:(cv::Ptr<cv::AKAZE>)anAKAZE;
 
 @end
 
