@@ -1,0 +1,16 @@
+PODS:
+  - OpenCVBridge (0.0.1)
+
+DEPENDENCIES:
+  - OpenCVBridge (from `../`)
+
+EXTERNAL SOURCES:
+  OpenCVBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OpenCVBridge: f8a0f25f5c767d1898e0de985080df52e6846138
+
+PODFILE CHECKSUM: c83fac28976358fbc34d4b85eec71457a0e05382
+
+COCOAPODS: 1.9.1

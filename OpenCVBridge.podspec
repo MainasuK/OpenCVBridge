@@ -31,6 +31,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/MainasuK/OpenCVBridge"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
+  spec.prepare_command = <<-CMD
+    ./scripts/setup.sh
+                   CMD
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -109,7 +112,7 @@ Pod::Spec.new do |spec|
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
 
-  # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
+  spec.preserve_paths = "scripts"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -119,7 +122,6 @@ Pod::Spec.new do |spec|
   #
   spec.vendored_frameworks = 'Frameworks/opencv2.framework'
   spec.framework  = "Accelerate", "Cocoa", "CoreGraphics", "OpenCL", "QuartzCore"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"

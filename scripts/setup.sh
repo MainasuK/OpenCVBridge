@@ -2,8 +2,7 @@
 
 set -exu
 
-cd ..
-readonly work_dir=$(pwd)
+readonly work_dir="$(PWD)"
 readonly opencv_version="4.3.0"
 readonly opencv_contrib_version="4.3.0"
 
