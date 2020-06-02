@@ -37,8 +37,7 @@ let bookKeypoints = detector.detectAndCompute(part, mask: nil, descriptors: book
 let booksKeypointsDescriptor = CVBMat()
 let booksKeypoints = detector.detectAndCompute(whole, mask: nil, descriptors: booksKeypointsDescriptor)
 
-// Matching descriptor vectors with a brute force matcher
-// Since SURF is a floating-point descriptor NORM_L2 is used
+// Matching descriptor vectors with the FLANN
 let matcher = CVBDescriptorMatcher(descriptorMatcherType: .FLANNBASED)
 let knnMatches = matcher.knnMatch(bookKeypointsDescriptor, descriptor2: booksKeypointsDescriptor, k: 2)
 
