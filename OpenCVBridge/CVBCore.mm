@@ -39,4 +39,9 @@
     return points;
 }
 
++ (double)determinant:(CVBMat *)mat
+{
+    return cv::determinant(mat.source->mat);
+}
+
 @end

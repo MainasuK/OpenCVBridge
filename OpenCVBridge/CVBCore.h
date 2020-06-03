@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CVBCore : NSObject
 
 + (NSArray<NSValue *> *)perspectiveTransform2f:(NSArray<NSValue *> *)src m:(CVBMat *)transform;
++ (double)determinant:(CVBMat *)mat;
 
 @end
 

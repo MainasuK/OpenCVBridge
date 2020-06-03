@@ -65,6 +65,8 @@ for i in goodMatches.indices {
 let H = CVBCalib3D.findHomography2f(partPoints.map { NSValue(point: $0) },
                                    dst: wholePoints.map { NSValue(point: $0) },
                                    method: .RANSAC)
+let determinant = CVBCore.determinant(H)
+print("Determinant of H: \(determinant)")
 
 var rectPart: [CGPoint] = [
     CGPoint.zero,
