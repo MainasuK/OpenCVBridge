@@ -48,6 +48,11 @@
     return self.source->mat.cols;
 }
 
+- (bool)empty
+{
+    return self.source->mat.empty();
+}
+
 - (CVBMat *)multiply:(CVBMat *)aMat
 {
     cv::Mat result = self.source->mat * aMat.source->mat;

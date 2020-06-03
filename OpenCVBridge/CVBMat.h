@@ -31,6 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (instancetype)initWithNSImage:(NSImage *)anImage;
 - (int)rows;
 - (int)cols;
+- (bool)empty;
 - (CVBMat *)multiply:(CVBMat *)aMat;
 - (CVBMat *)divideDouble:(double)value;
 - (double)getDoubleAtIndex:(int)index;
