@@ -48,6 +48,12 @@
 - (NSArray<NSArray<CVBDMatch *> *> *)knnMatch:(CVBMat *)descriptors1 descriptor2:(CVBMat *)descriptor2 k:(int)k
 {
     std::vector<std::vector<cv::DMatch>> knnMatches;
+    
+    if (descriptors1.source->mat.empty() || descriptor2.source->mat.empty()) {
+        NSMutableArray *cvbKnnMatches = [[NSMutableArray alloc] init];
+        return cvbKnnMatches;
+    }
+    
     self.source->descriptorMatcher->knnMatch(descriptors1.source->mat,
                                              descriptor2.source->mat,
                                              knnMatches,
